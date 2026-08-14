@@ -1,0 +1,25 @@
+{
+	"$schema": "https://json.schemastore.org/claude-code-plugin-marketplace.json",
+	"name": "yamaha-claude-code-tasks",
+	"owner": {
+		"name": "mahdimdabdullahsakif-svg",
+		"email": "mahdimdabdullahsakif@gmail.com"
+	},
+	"description": "Plugin marketplace for Yamaha-Claude-Code-Tasks",
+	"plugins": [
+		{
+			"name": "mcp-server-dev",
+			"displayName": "MCP Server Dev",
+			"source": "./plugins/mcp-server-dev",
+			"description": "Scaffold, build, and test Model Context Protocol (MCP) servers",
+			"author": {
+				"name": "mahdimdabdullahsakif-svg",
+				"email": "mahdimdabdullahsakif@gmail.com"
+			},
+			"license": "MIT",
+			"keywords": ["mcp", "model-context-protocol", "server", "sdk"],
+			"category": "Development",
+			"tags": ["mcp", "server", "development"]
+		}
+	]
+}

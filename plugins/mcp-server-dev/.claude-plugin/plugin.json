@@ -1,0 +1,11 @@
+{
+	"name": "mcp-server-dev",
+	"description": "Scaffold, build, and test Model Context Protocol (MCP) servers",
+	"version": "0.1.0",
+	"author": {
+		"name": "mahdimdabdullahsakif-svg",
+		"email": "mahdimdabdullahsakif@gmail.com"
+	},
+	"license": "MIT",
+	"keywords": ["mcp", "model-context-protocol", "server", "sdk"]
+}
