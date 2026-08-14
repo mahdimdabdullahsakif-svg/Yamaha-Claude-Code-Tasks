@@ -1,0 +1,83 @@
+{
+  "report_name": "Two-Wheeler Market Radar",
+  "artifact_url": "https://claude.ai/code/artifact/8efc3ca7-2f85-4843-addf-e137a80d89c2",
+  "last_run": "2026-08-14",
+  "note": "Seed snapshot from the format-approval pass. Several fields are null because the full site-by-site crawl has not run yet — the daily Routine fills these in and this file becomes the diff baseline for 'what changed today'.",
+  "brands": {
+    "yamaha": {
+      "distributor": "ACI Motors",
+      "official_site": "https://www.yamaha-motor.com.bd",
+      "self": true,
+      "models_sourced_bdt": { "Saluto 125 UBS": 165000, "FZS V4": 294000, "FZ25": 410000, "R15M": 678000 },
+      "msrp_range_bdt": [165000, 678000],
+      "bikroy_range_bdt": null,
+      "new_launch_signal": null,
+      "campaign_signal": null
+    },
+    "honda": {
+      "distributor": "Bangladesh Honda Pvt. Ltd.",
+      "official_site": "https://www.bangladeshhonda.com.bd",
+      "models_sourced_bdt": {},
+      "msrp_range_bdt": [100000, 130000],
+      "msrp_range_note": "110cc band only from this pass, full line-up pending",
+      "bikroy_range_bdt": null,
+      "new_launch_signal": null,
+      "campaign_signal": null
+    },
+    "bajaj": {
+      "distributor": "Uttara Motors Ltd.",
+      "official_site": "https://www.uttaramotorsltd.com",
+      "models_sourced_bdt": { "Pulsar 150 SD": 199850 },
+      "msrp_range_bdt": null,
+      "bikroy_range_bdt": null,
+      "new_launch_signal": null,
+      "campaign_signal": null
+    },
+    "suzuki": {
+      "distributor": "Uttara Motors Ltd.",
+      "official_site": "https://www.suzukibd.com",
+      "models_sourced_bdt": {},
+      "msrp_range_bdt": null,
+      "bikroy_range_bdt": null,
+      "new_launch_signal": null,
+      "campaign_signal": null
+    },
+    "tvs": {
+      "distributor": "TVS Auto Bangladesh Ltd.",
+      "official_site": "https://www.tvsbd.com",
+      "models_sourced_bdt": { "Metro": 114999, "Radeon": 120999, "Stryker 125": 144999, "Rockz 125": 153900, "Raider 125": 169900 },
+      "msrp_range_bdt": [114999, 169900],
+      "bikroy_range_bdt": null,
+      "new_launch_signal": null,
+      "campaign_signal": null
+    },
+    "hero": {
+      "distributor": "Niloy Motors Ltd. (Nitol Niloy Group)",
+      "official_site": "https://www.heromotocorp.com/en-bd/price-list.html",
+      "models_sourced_bdt": { "HF Deluxe Tubeless Refresh": 114500 },
+      "msrp_range_bdt": null,
+      "bikroy_range_bdt": null,
+      "new_launch_signal": "6 models signalled for 2026-2027: XPulse 200T, XPulse 200, Maestro Edge 125, Destini 125, Xtreme 200S 4V, Duet 125",
+      "campaign_signal": null
+    },
+    "runner": {
+      "distributor": "Runner Automobiles Ltd.",
+      "official_site": "https://motorcycles.runnerautomobiles.com",
+      "models_sourced_bdt": { "AD 80S": 84000, "AD 80S Deluxe": 85000, "Skooty 110": 149000 },
+      "msrp_range_bdt": [84000, 149000],
+      "bikroy_range_bdt": null,
+      "new_launch_signal": null,
+      "campaign_signal": null
+    },
+    "walton": {
+      "distributor": "Walton Motors",
+      "official_site": "https://www.waltonbd.com",
+      "models_sourced_bdt": { "Fusion 125 NX": 105000, "Takyon Fusion 25FZ (EV)": 183950 },
+      "msrp_range_bdt": [105000, 183950],
+      "bikroy_range_bdt": null,
+      "new_launch_signal": null,
+      "campaign_signal": null
+    }
+  },
+  "bikroy_source": "https://bikroy.com/en/ads/bangladesh/motorbikes-scooters/motorcycle"
+}
